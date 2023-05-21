@@ -152,7 +152,7 @@ header h1 {
 }
 
 .temp {
-    color: var(--fondo3);
+    color: var(--fondo2);
     font-weight: 400;
     border-top: 2px solid var(--letra2);
     padding: 0px 10px;
@@ -161,7 +161,7 @@ header h1 {
 }
 
 .temp span {
-    color: var(--fondo2);
+    color: var(--fondo3);
 }
 
 .city {
@@ -259,7 +259,8 @@ header h1 {
     transition: all 400ms;
 }
 
-.day1 {
+.day1, .day2, .day3,
+.day4, .day5 {
     background: linear-gradient(30deg, rgba(37,37,37,1) 0%, rgba(103,175,203,1) 100%);   
     margin: 0 auto;
     margin: 1rem;
@@ -277,21 +278,19 @@ header h1 {
     margin: 10px;
 }
 
-.day2 {
-    background: linear-gradient(30deg, rgba(37,37,37,1) 0%, rgba(103,175,203,1) 100%);   
-    margin: 0 auto;
-    margin: 1rem;
-    border: 5px solid var(--letra2);
-    border-radius: 30px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.day2 .stats {
+    margin: 10px;
 }
 
-.day2 .stats {
+.day3 .stats {
+    margin: 10px;
+}
+
+.day4 .stats {
+    margin: 10px;
+}
+
+.day5 .stats {
     margin: 10px;
 }
 
@@ -307,6 +306,10 @@ header h1 {
     width: 100%;
     justify-content: center;
     max-width: 1609.640px;
+}
+
+.container-fluid {
+    display: none;
 }
 
 
