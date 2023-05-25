@@ -304,8 +304,6 @@ searchBtn.addEventListener('click', () => {
     checkWeather();
     getHistory();
     renderHistory();
-    
-   
 })
 
 // Executes the timer.
