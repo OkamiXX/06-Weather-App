@@ -29,4 +29,4 @@ GitHub Repo: https://github.com/OkamiXX/06-Weather-App
 
 Deployed Website URL: https://okamixx.github.io/06-Weather-App/
 
-    By: Carlos Osuna ©
+    By: Carlos Osuna © :)
