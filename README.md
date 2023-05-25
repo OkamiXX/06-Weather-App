@@ -21,8 +21,12 @@
 ## Demo:
 ![Alt Text](./assets/img/Weather-APP.gif)
 
+![Alt Text](./assets/img/Weather-APP%20(1).gif)
+
 ## Links:
 
 GitHub Repo: https://github.com/OkamiXX/06-Weather-App
 
 Deployed Website URL: https://okamixx.github.io/06-Weather-App/
+
+    By: Carlos Osuna © :)
