@@ -127,28 +127,34 @@ header h1 {
     transition: all 400ms;
 }
 
-.weather-pic {
-    width: 115px;
-    height: 100px;
+.weather-pic, .weather-pic1, .weather-pic2,
+.weather-pic3, .weather-pic4, .weather-pic5 {
+  
     padding: 10px;
     filter: brightness(1.3);
 }
 
-.weather-pic:hover {
-    transform: scale(1.1);
-    background-color: var(--fondo);
-    border: 2px solid var(--fondo2);
-    border-radius: 30px;
-    transition: all 500ms;
-}
 
-.date {
+.date, .date1, .date2, 
+.date3, .date4, .date5 {
     color: var(--fondo3);
     font-weight: 500;
     font-size: 30px;
     border-bottom: 2px solid var(--letra2);
     margin-bottom: 15px;
     -webkit-text-stroke: 1px var(--letra);
+}
+
+#current-condition1, #current-condition2,
+#current-condition3, #current-condition4,
+#current-condition5 {
+    color: var(--letra);
+    font-style: italic;
+    text-transform: uppercase;
+    border: 2px solid var(--fondo2);
+    border-radius: 30px;
+    padding: 0 10px;
+    font-size: 10px;
 }
 
 .temp {
@@ -312,7 +318,70 @@ header h1 {
     display: none;
 }
 
+#historyBar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    width: 500px;
+    border: 5px solid var(--letra2);
+    border-radius: 40px;
+    background-color: var(--fondo2);
+    display: none;
+}
 
+#historyBar:hover {
+    border: 5px solid var(--letra);
+    transform: scale(1.02);
+    transition: all 500ms;
+}
+
+#clear-history {
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border: 2px dashed var(--letra);
+    padding: 7px;
+    border-radius: 1000px;
+    text-align: center;
+}
+
+#clear-history:hover {
+    transform: scale(1.2);
+    background-color: var(--letra);
+    border: 2px solid var(--fondo);
+    transition: all 500ms;
+}
+
+.city-history {
+    padding: 0 10px;
+    margin: 0 auto;
+    color: var(--fondo3);
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    border: 2px solid rgba(0, 217, 255, 0.39);
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.city-history:hover {
+    transform: scale(1.05);
+    border: 2px solid var(--letra);
+    transition: all 400ms;
+}
+
+#history {
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
 
 
 
